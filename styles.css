@@ -183,12 +183,20 @@ nav {
 }
 
 .thead {
-  position: absolute;
-  right: 7%;
-  top: 12%;
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
+  justify-content: center;
+  top:auto;
+  width:100%;
+}
+.timg{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  margin-left:50% ;
 }
 
 .top-heading {
@@ -203,9 +211,9 @@ nav {
 
 .tech-img {
   width: 25rem;
-  position: absolute;
-  right: 9.5%;
-  bottom: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rec-reg {
@@ -461,6 +469,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .footer__site-text h4 {
@@ -476,7 +485,6 @@ footer {
   justify-content: space-around;
   max-width: 600px !important;
   align-items: center;
-  margin: auto;
 }
 
 .footer__site-text {
@@ -605,7 +613,7 @@ footer {
   }
 
   .thead {
-    position: absolute;
+    position: relative;
     right: 4.5%;
     top: 19%;
     display: flex;
@@ -621,6 +629,12 @@ footer {
     font-style: normal;
     font-weight: bold;
     font-size: 3.5rem;
+  }
+  .timg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .tech-img {
@@ -1608,4 +1622,8 @@ footer {
     width: 100%;
     margin-bottom: 1rem;
   }
+}
+
+.navbar-head{
+  width: 100%;
 }
